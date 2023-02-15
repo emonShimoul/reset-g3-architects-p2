@@ -14,6 +14,11 @@
     cursor: pointer;
 }
 
+.paragraph {
+    color: #727272;
+    line-height: 26px;
+}
+
 /* header styles */
 .header {
     background-color: rgba(255, 144, 14, 0.1);
@@ -111,11 +116,6 @@
     font-weight: 700;
 }
 
-.quick-list-contents p {
-    color: #727272;
-    line-height: 26px;
-}
-
 /* love-enjoy-features section styles */
 .love-enjoy-features {
     margin-bottom: 150px;
@@ -179,4 +179,27 @@
 .love-enjoy-btn-text {
     font-weight: 700;
     font-size: 50px
+}
+
+/* some-facts section styles */
+.some-facts-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.facts {
+    margin: 100px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+    padding: 50px;
 }
