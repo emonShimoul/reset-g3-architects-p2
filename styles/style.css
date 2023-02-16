@@ -238,3 +238,34 @@
     text-align: center;
     padding: 35px 0;
 }
+
+.hide {
+    display: none;
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width:576px) {
+    .main {
+        padding: 0 20px;
+    }
+
+    .some-facts {
+        text-align: center;
+    }
+
+    .facts {
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fact {
+        margin: 10px 30px;
+    }
+
+    .footer {
+        margin: 0;
+        font-size: 16px;
+        padding: 30px 20px;
+    }
+}
