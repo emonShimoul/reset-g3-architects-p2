@@ -311,6 +311,7 @@
 
     .love-enjoy-contents {
         width: 100%;
+        padding-right: 0;
     }
 
     .love-enjoy-feature {
@@ -321,7 +322,7 @@
         width: 100%;
     }
 
-    .love-enjoy-btn {
+    */ .love-enjoy-btn {
         text-align: center;
     }
 
@@ -367,7 +368,7 @@
 }
 
 /* FOR TABLET RESPONSIVE */
-@media screen and (min-width:576px) and (max-width:991px) {
+@media screen and (min-width:576px) and (max-width:1200px) {
 
     /* header responsive */
     .header {
@@ -403,6 +404,7 @@
 
     .love-enjoy-contents {
         width: 100%;
+        padding-right: 0;
     }
 
     .love-enjoy-contents p {
@@ -418,13 +420,13 @@
     }
 
     .love-enjoy-btn button {
-        left: 0;
-        bottom: 0;
+        left: 550px;
+        bottom: -53px;
+        font-size: 20px;
     }
 
     .love-enjoy-btn-text {
-        font-weight: 700;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     /* some-facts section responsive */
@@ -448,8 +450,10 @@
     }
 }
 
+/*  */
+
 /* FOR LAPTOP RESPONSIVE */
-@media screen and (min-width:992px) and (max-width:1400px) {
+@media screen and (min-width:1201px) and (max-width:1400px) {
     .header {
         padding: 50px 100px;
     }
