@@ -246,7 +246,40 @@
 }
 
 /* RESPONSIVE CSS */
+
+/* FOR MOBILE RESPONSIVE */
 @media screen and (max-width:576px) {
+
+    /* header responsive */
+    .header {
+        padding: 50px 20px;
+    }
+
+    .header-top {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .nav ul li a {
+        font-size: 20px;
+        text-decoration: solid;
+    }
+
+    .header-content {
+        padding: 50px 0;
+    }
+
+    .header-content h2 {
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+    /* main area responsive */
     .main {
         padding: 0 20px;
     }
@@ -272,7 +305,6 @@
     }
 
     .love-enjoy-maincontent {
-        display: flex;
         flex-direction: column-reverse;
         gap: 30px;
     }
@@ -311,7 +343,6 @@
     }
 
     .facts {
-        display: flex;
         flex-direction: column;
     }
 
@@ -319,10 +350,126 @@
         margin: 10px 30px;
     }
 
-    /* footer styles */
+    /* our-sponsors section responsive */
+    .sponsors {
+        flex-direction: column;
+        gap: 60px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    /* footer responsive */
     .footer {
         margin: 0;
         font-size: 16px;
         padding: 30px 20px;
+    }
+}
+
+/* FOR TABLET RESPONSIVE */
+@media screen and (min-width:576px) and (max-width:991px) {
+
+    /* header responsive */
+    .header {
+        padding: 50px 20px;
+    }
+
+    .header-top {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        margin-top: 30px;
+    }
+
+    .header-content {
+        padding: 50px 0;
+    }
+
+    /* main area responsive */
+    .main {
+        padding: 0 10px;
+    }
+
+    /* love-enjoy-features responsive */
+    .love-enjoy-features {
+        margin-bottom: 50px;
+    }
+
+    .love-enjoy-maincontent {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .love-enjoy-contents {
+        width: 100%;
+    }
+
+    .love-enjoy-contents p {
+        padding: 0 20px;
+    }
+
+    .love-enjoy-feature {
+        margin: 30px 50px;
+    }
+
+    .love-enjoy-image {
+        width: 100%;
+    }
+
+    .love-enjoy-btn button {
+        left: 0;
+        bottom: 0;
+    }
+
+    .love-enjoy-btn-text {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    /* some-facts section responsive */
+    .fact {
+        padding: 50px 20px;
+    }
+
+    /* our-sponsors section responsive */
+    .sponsors {
+        flex-direction: column;
+        gap: 60px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    /* footer responsive */
+    .footer {
+        margin: 50px 0;
+        font-size: 16px;
+        padding: 30px 20px;
+    }
+}
+
+/* FOR LAPTOP RESPONSIVE */
+@media screen and (min-width:992px) and (max-width:1400px) {
+    .header {
+        padding: 50px 100px;
+    }
+
+    .main {
+        padding: 0 100px;
+    }
+
+    .love-enjoy-btn button {
+        font-size: 16px;
+        left: -60px;
+        bottom: 180px;
+    }
+
+    .love-enjoy-btn-text {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .love-enjoy-features {
+        margin-bottom: 80px;
     }
 }
